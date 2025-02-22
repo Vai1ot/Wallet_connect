@@ -60,7 +60,7 @@ function App() {
     <div className="App" style={{ padding: '20px', textAlign: 'center' }}>
       <Card className="mx-auto" style={{ maxWidth: '400px' }}>
         <Card.Body>
-          <Card.Title>Подключение к MetaMask</Card.Title>
+          <Card.Title>Лишние деньги? Подключи кошелёк</Card.Title>
           {isConnected ? (
             <Card.Text>
               <strong>Адрес кошелька:</strong> {walletAddress.slice(0, 6)}...{walletAddress.slice(-4)}
@@ -72,6 +72,15 @@ function App() {
           )}
         </Card.Body>
       </Card>
+
+      {/* Место для гифки */}
+      <div style={{ marginTop: '20px' }}>
+        <img
+          src="https://i.gifer.com/origin/e9/e9a505d1d8604f350e9df5b33b551493_w200.webp" // Пример гифки с GIPHY
+          alt="Gif"
+          style={{ maxWidth: '100%', height: 'auto' }} // Адаптивный размер
+        />
+      </div>
     </div>
   );
 }
