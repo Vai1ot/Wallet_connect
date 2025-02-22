@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Wallet_connect/static/css/main.acc16e7b.css",
-    "main.js": "/Wallet_connect/static/js/main.fc5cd896.js",
+    "main.js": "/Wallet_connect/static/js/main.cb96b83f.js",
     "static/js/453.1758a215.chunk.js": "/Wallet_connect/static/js/453.1758a215.chunk.js",
     "index.html": "/Wallet_connect/index.html",
     "main.acc16e7b.css.map": "/Wallet_connect/static/css/main.acc16e7b.css.map",
-    "main.fc5cd896.js.map": "/Wallet_connect/static/js/main.fc5cd896.js.map",
+    "main.cb96b83f.js.map": "/Wallet_connect/static/js/main.cb96b83f.js.map",
     "453.1758a215.chunk.js.map": "/Wallet_connect/static/js/453.1758a215.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.acc16e7b.css",
-    "static/js/main.fc5cd896.js"
+    "static/js/main.cb96b83f.js"
   ]
 }
